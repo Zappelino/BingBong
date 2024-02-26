@@ -1,0 +1,9 @@
+Aquiring skills:
+1. Finish impelementation of Tutorial
+2. Find good multyplyer tutorial 
+3. Realzie Multiplayer
+
+Working in BingBong:
+1. Creat assests (evtl. Juri)
+2. Creat first map
+3. Implement digging function (idea: we start under ground)
