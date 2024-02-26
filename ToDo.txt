@@ -7,3 +7,5 @@ Working in BingBong:
 1. Creat assests (evtl. Juri)
 2. Creat first map
 3. Implement digging function (idea: we start under ground)
+
+blbl
