@@ -11,10 +11,16 @@ public class ItemCollector : MonoBehaviour
     //Referenz to text displaying the counter
     [SerializeField] private Text cherriesText;
 
+    //Adding option to add sound effect
+    [SerializeField] private AudioSource collectionSoundEffect;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Cherry"))
         {
+            //Play collection sound effect
+            collectionSoundEffect.Play();
+
             //Delet collected item
             Destroy(collision.gameObject);
 
