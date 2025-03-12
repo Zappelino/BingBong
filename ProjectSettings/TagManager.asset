@@ -14,7 +14,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - DestroyableGround
   - 
   - 
   - 
@@ -48,4 +48,7 @@ TagManager:
     locked: 0
   - name: Terrain
     uniqueID: 3342043093
+    locked: 0
+  - name: Infront
+    uniqueID: 3510715439
     locked: 0

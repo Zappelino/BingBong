@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8566422303706358298}
   - component: {fileID: 8686811406519477377}
   - component: {fileID: 8232160260273838091}
-  - component: {fileID: 1849091957717186382}
   - component: {fileID: 3957024494819512262}
   - component: {fileID: 5052059995030954886}
+  - component: {fileID: 1814463673492059781}
+  - component: {fileID: 1849091957717186382}
   - component: {fileID: 910587507560735342}
   - component: {fileID: 6845536190804719248}
   - component: {fileID: 7042848863761511537}
@@ -183,27 +184,6 @@ MonoBehaviour:
   jumpStrength: 14
   walkingSpeed: 7
   jumpSoundEffect: {fileID: 910587507560735342}
---- !u!95 &1849091957717186382
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2377222417859313985}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c429e1cca4fb32b46a45d54a78cf1042, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &3957024494819512262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +211,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathSoundEffect: {fileID: 7042848863761511537}
+--- !u!114 &1814463673492059781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2377222417859313985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893683e529452b941ba2f42bf1dc4ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyableTerrainTilemap: {fileID: 0}
+  reachDistance: 1.5
+--- !u!95 &1849091957717186382
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2377222417859313985}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c429e1cca4fb32b46a45d54a78cf1042, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!82 &910587507560735342
 AudioSource:
   m_ObjectHideFlags: 0
